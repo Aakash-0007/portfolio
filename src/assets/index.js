@@ -10,6 +10,7 @@ import close from "./close.svg"
 
 // WORK IMPORTS
 import cashies from "./company/cashies.png"
+import akruti from "./company/Akruti_logo.png"
 
 // TECH IMPORTS FOR 3D CIRCLES
 import javascript from "./tech/javascript.png"
@@ -33,6 +34,8 @@ import cashiesproject from "./cashiesproject.png"
 import recipe from "./recipe.jpg"
 import SpotifyWeb from "./SpotifyWeb.jpg"
 import MovieHub from "./MovieHub.jpg"
+import RetroSynth from './RetroSynth.png'
+import GuitarAmp from "./GuitarAmp.png"
 import Portfolio from "./Portfolio.jpg"
 export {
   backend,
@@ -55,10 +58,13 @@ export {
   //typescript,
   threejs,
   cashies,
+  akruti,
   Sql,
   cashiesproject,
   recipe,
   SpotifyWeb,
   MovieHub,
+  RetroSynth,
+  GuitarAmp,
   Portfolio,
 }

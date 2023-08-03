@@ -20,12 +20,15 @@ import {
 
   // WORK IMPORTS
   cashies,
+  akruti,
 
   //PROJECT - PROJECT IMAGE IMPORTS
   cashiesproject,
   recipe,
   SpotifyWeb,
   MovieHub,
+  RetroSynth,
+  GuitarAmp,
   Portfolio,
 } from "../assets"
 
@@ -62,7 +65,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Backend Familiarity",
+    title: "Backend",
     icon: creator,
   },
 ]
@@ -118,28 +121,41 @@ const technologies = [
 ]
 
 const experiences = [
-  {
-    title: "Web Developer",
+   {
+    title: "Software Developer",
+    company_name: "Akruti Concept Studio",
+    icon: akruti,
+    iconBg: "#383E56",
+    date: "June 2023 - August 2023",
+    points: [
+      "Developed and implemented responsive user interfaces using React.js and Tailwind CSS for a leading architectural firm, creating stunning and interactive designs that effectively showcased the company's portfolio.",
+      "Collaborated closely with the director as the primary client, gathering feedback through live screen sharing to align the website with their vision.",
+      "Employed reusable components and maintained an efficient code structure, enhancing productivity and optimizing the user experience.",
+      "Contributed to the complete software development life cycle, ensuring a seamless website from requirements gathering to deployment.",
+      "Demonstrated effective communication skills, presenting technical concepts and incorporating user feedback to exceed client expectations.",
+    ],
+  }, {
+    title: "Freelance Developer",
     company_name: "Cashies",
     icon: cashies,
     iconBg: "#383E56",
     date: "Feb 2023 - April 2023",
     points: [
-      "Built a Responsive website for a startup while paying great attention to detail to provide excellent buying experience.",
+      "Built a Responsive website for a clothing line startup while paying great attention to detail to provide excellent buying experience.",
       "Feature to respond to all customer inquiries to ensure the highest level of satisfaction and encourage repeat buisness.",
-      "Designed the entire layout and functionality to create a  high-quality product.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Boosted user interactivity on stores social media page by 60%.",
       "Collaborated closely with client to comprehensively understand their unique requirements, effectively incorporating my expertise to deliver a tailored product that precisely aligned with their vision.",
     ],
   },
+
 ]
 
 const projects = [
   {
     name: "Cashies",
     description:
-      "A Clothing brand website named Cashies which I designed for a startup. Cashies was a combination of personal freedom and client taste, suited for various screen sizes. Developed using  HTML, CSS, and JavaScript. This project helped me understand the importance of accessibility and efficiency",
+      "*Development version* A Clothing brand website named Cashies which I designed for a startup. Cashies was a combination of personal freedom and client taste, suited for various screen sizes. Developed using  HTML, CSS, and JavaScript. This project helped me understand the importance of scalability and efficiency",
     tags: [
       {
         name: "html",
@@ -234,7 +250,51 @@ const projects = [
     image: MovieHub,
     source_code_link: "https://github.com/Aakash-0007/MovieHub",
     live_link: "https://aakash-0007.github.io/MovieHub/",
+  }, {
+    name: "Guitar AMP",
+    description:
+      "The Virtual Guitar AMP Controls is a React-based web application that simulates the functionality of an amplifier for an electric guitar. The application allows users to adjust the volume, bass, mid, and treble levels in real-time and showcase a  sound visualizer using their microphone as an input source. It provides a cost-effective alternative to buying a physical amplifier, making it accessible to guitarists who want to experiment with their sound without investing in additional hardware. ",
+    tags: [
+      {
+        name: "react",
+        color: "react-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web_audio_api",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: GuitarAmp,
+    source_code_link: "https://github.com/Aakash-0007/Guitar-AMP",
+    live_link: "https://aakash-0007.github.io/Guitar-AMP/",
   },
+  {
+    name: "Retro-Synth",
+    description:
+      "The Audio Synthesizer is a React-based web application that emulates the functionalities of an electronic synthesizer, allowing users to create and modify electronic sounds in real-time. It is a cost-effective alternative to buying an expensive hardware synthesizer, making it accessible to music enthusiasts who are interested in creating synthwave music and experimenting with various sound parameters. Th  is Project was  fun to work on since it combined my passion for music and software development",
+    tags: [
+      {
+        name: "react",
+        color: "react-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web_audio_api",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: RetroSynth,
+    source_code_link: "https://github.com/Aakash-0007/Retro-Synth",
+    live_link: "https://aakash-0007.github.io/Retro-Synth/",
+  },
+ 
   {
     name: "Portfolio",
     description:
